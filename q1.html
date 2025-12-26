@@ -10,15 +10,42 @@
     <h1>Login</h1>
     <form>
         <fieldset>
-            <label for="username">username :</label>
-            <input type="text" id="username">
+            <label for="الاسم الكامل">الاسم الكامل :</label>
+            <input type="text" id="الاسم الكامل">
             <br>
-            <label for="password">password :</label>
-            <input type="password" id="password">
+            <label for="تاريخ الميلاد">تاريخ الميلاد :</label>
+            <input type="date" id="date">
             <br>
-            <input type="checkbox" name="r" value="yes" id="r">
-            <label for="r">remeber me</label>
+            <label>الجنس</label>
+            <select required>
+                <option value="">اختر</option>
+                <option>ذكر</option>
+                <option>أنثى</option>
+            </select>
             <br>
+            <label for="email">البريد الالكتروني</label>
+            <input type="email" id="email">
+            <br>
+            <label>رقم الهاتف</label>
+            <input type="tel">
+            <br>
+            <label>الكلية</label>
+            <select required>
+                <option value="">اختر الكلية</option>
+                <option>كلية الحاسبات</option>
+                <option>كلية الهندسة</option>
+                <option>كلية العلوم الإدارية</option>
+                <option>كلية الطب</option>
+            </select>
+            <br>
+            <label>التخصص</label>
+            <input type="text">
+            <br>
+            <label for="password">كلمة المرور</label>
+            <input type="password">
+            <br>
+            <label for="password">تأكيد كلمة المرور</label>
+            <input type="password">
             <input type="submit" class="a">
         </fieldset>
     </form>
