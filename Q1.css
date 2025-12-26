@@ -1,0 +1,26 @@
+h1{
+    font-size: 50px;
+    padding: 50px;
+    background-image: linear-gradient(to bottom ,green, white);
+    text-align: center;
+    color: white;
+}
+h1:hover{
+    background-image: linear-gradient(to top ,green, white);
+}
+form{
+    width: 400px;
+    position: absolute;
+    left: 36%;
+    line-height: 30px;
+    margin: 30px;
+}
+.a{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 85px;
+}
+fieldset{
+    border: green 5px solid;
+}
